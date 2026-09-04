@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            color: blue;
+            background-color: greenyellow;
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .link {
+            float: right;
+            margin-left: 20px;
+        }
+
+        #type {
+            color: white;
+            background-color: black;
+            font-size: 20px;
+        }
+
+        #middle {
+            font-size: 20px;
+            width: 100%;
+            background-color: black;
+        }
+
+        #a {
+            float: left;
+            border: 6px solid white;
+            color: white;
+            background-color: black;
+        }
+        #footer {
+            color: white;
+            background-color: black;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"><b>Movie Explorer</b>
+        <a href="" class="link">About & Contact</a>
+        <a href="" class="link">Movie Details</a>
+        <a href="" class="link">Catalogue</a>
+        <a href="" class="link">Home</a>
+    </div>
+    <div id="type">
+        <b>Selected Genre:</b>
+        <input type="radio" name="genre" value="All Genres"> All Genres
+        <input type="radio" name="genre" value="Action"> Action
+        <input type="radio" name="genre" value="Comedy"> Comedy
+        <input type="radio" name="genre" value="Drama"> Drama
+        <input type="radio" name="genre" value="Horror"> Horror
+        <input type="radio" name="genre" value="Sci-Fi"> Sci-Fi
+        <input type="radio" name="genre" value="Romance"> Romance
+        <button type="button" id="applyFilters">Apply Filters</button>
+        <button type="button" id="resetAll">Reset All</button>
+        <hr>
+    </div>
+    <div id="middle">
+        <div>
+            <div id="a"><img src="3 IDIOTS.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Comedy, Drama</li>
+                    <li><b>Director:</b> Rajkumar Hirani</li>
+                    <li><b>Duration:</b> 170 minutes</li>
+                    <li><b>Rating:</b> 8.4/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="AJAB PREM KI GHAZAB KAHANI.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Comedy, Romance</li>
+                    <li><b>Director:</b> Rajkumar Santoshi</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 6.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="Ra.One.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Action, Sci-Fi</li>
+                    <li><b>Director:</b> Anubhav Sinha</li>
+                    <li><b>Duration:</b> 156 minutes</li>
+                    <li><b>Rating:</b> 4.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="CHENNAI EXPRESS.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b>Comedy & Romance</li>
+                    <li><b>Director:</b> Rohit Shetty</li>
+                    <li><b>Duration:</b> 146 minutes</li>
+                    <li><b>Rating:</b> 6.9/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="KRISH 3.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Action, Adventure</li>
+                    <li><b>Director:</b> J. P. Dhillon</li>
+                    <li><b>Duration:</b> 145 minutes</li>
+                    <li><b>Rating:</b> 5.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="a"><img src="AASHIQUI 2.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Romance</li>
+                    <li><b>Director:</b> Mohsin Khan</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 7.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="YEH JAWAANI HAI DEEWANI.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Comedy, Romance</li>
+                    <li><b>Director:</b> Kunal Deshmukh</li>
+                    <li><b>Duration:</b> 158 minutes</li>
+                    <li><b>Rating:</b> 6.8/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="2 STATES.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Romance</li>
+                    <li><b>Director:</b> Abhishek Varman</li>
+                    <li><b>Duration:</b> 158 minutes</li>
+                    <li><b>Rating:</b> 7.1/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="Ek Villain.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Action, Thriller</li>
+                    <li><b>Director:</b> Mohit Suri</li>
+                    <li><b>Duration:</b> 130 minutes</li>
+                    <li><b>Rating:</b> 6.3/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="Happy New Year.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Comedy, Action</li>
+                    <li><b>Director:</b> Farah Khan</li>
+                    <li><b>Duration:</b> 180 minutes</li>
+                    <li><b>Rating:</b> 5.0/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="a"><img src="PK.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Comedy, Drama</li>
+                    <li><b>Director:</b> Rajkumar Hirani</li>
+                    <li><b>Duration:</b> 153 minutes</li>
+                    <li><b>Rating:</b> 8.1/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="Humpty Sharma Ki Dulhaniya.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Comedy, Romance</li>
+                    <li><b>Director:</b> Shashank Khaitan</li>
+                    <li><b>Duration:</b> 140 minutes</li>
+                    <li><b>Rating:</b> 6.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="Main Tera Hero.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Comedy, Action</li>
+                    <li><b>Director:</b> David Dhawan</li>
+                    <li><b>Duration:</b> 140 minutes</li>
+                    <li><b>Rating:</b> 5.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="BAJRANGI BHAIJAN.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Drama, Comedy</li>
+                    <li><b>Director:</b> Kabir Khan</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 8.0/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><img src="BADLAPUR.jpg" width="310" height="420">
+                <ul>
+                    <li><b>Genre:</b> Action, Thriller</li>
+                    <li><b>Director:</b> Sriram Raghavan</li>
+                    <li><b>Duration:</b> 130 minutes</li>
+                    <li><b>Rating:</b> 7.6/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+           </div>
+        </div>
+    </div>
+    <div id="footer">
+        <hr>
+        <marquee>"Thank you for visiting Movie Explorer! We hope you enjoy exploring our collection of movies."</marquee>
+        <p>© 2026 Movie Explorer. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
