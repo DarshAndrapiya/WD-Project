@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .link {
+            font-size: 30px;
+            float: right;
+            margin-right: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Movie Explorer</h1>
+         <a href="About.html" class="link">About & Contact</a>
+        <a href="MovieDetails.html" class="link">Movie Details</a>
+        <a href="Catalogue.html" class="link">Catalogue</a>
+        <a href="Home.html" class="link">Home</a>
+    </div>
+    <h2>User Feedback & Inquiry Form</h2>
+    <label><b>Please fill out the form below to submit your feedback or inquiries regarding the portal:</b></label><hr><br>
+    <b>Full Name:</b><br>
+    <input type="text" name="fullName" required minlength="5"><br><br>
+    <b>Email Address:</b><br>
+    <input type="email" name="email" required><br><br>
+    <b>Inquiry Category:</b><br>
+    <select name="category" required>
+        <option value="">Select a category</option>
+        <option value="bug">Bug Report</option>
+        <option value="feature">Feature Request</option>
+        <option value="general">General Feedback</option>
+    </select><br><br>
+    <b>How would you rate this portal design?</b><br>
+    <input type="radio" name="rating" value="5" required> 5 - Excellent<br>
+    <input type="radio" name="rating" value="4"> 4 - Good<br>
+    <input type="radio" name="rating" value="3"> 3 - Average<br>
+    <input type="radio" name="rating" value="2"> 2 - Needs Improvement<br><br>
+    <b>Which features did you find most useful?</b><br>
+    <input type="checkbox" name="features" value="search"> Search Functionality<br>
+    <input type="checkbox" name="features" value="movieDetails"> Movie Details<br>
+    <input type="checkbox" name="features" value="catalogue"> Catalogue<br> <br>
+    <b>Your Detailed Feedback/Message:</b><br>
+    <textarea name="message" rows="4" cols="50" placeholder="Type your detailed message here..." required></textarea><br><br>
+
+    <button type="submit">Submit Feedback Inquiry</button>
+    <button type="reset">Clear Form Inputs</button><br>
+        <p>© 2026 Movie Explorer. All rights reserved.</p>  
+</body>
+</html>

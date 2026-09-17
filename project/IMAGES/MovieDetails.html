@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            color: blue;
+            background-color: greenyellow;
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .link {
+            float: right;
+            margin-left: 20px;
+        }
+
+        #type {
+            color: white;
+            background-color: black;
+            font-size: 20px;
+        }
+
+        #middle {
+            font-size: 20px;
+            width: 100%;
+            background-color: black;
+        }
+
+        #a {
+            display: flex;
+            border: 5px solid white;
+            color: white;
+            background-color: black;
+        }
+
+        #footer {
+            color: white;
+            background-color: black;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"><b>Movie Explorer</b>
+        <a href="About.html" class="link">About & Contact</a>
+        <a href="MovieDetails.html" class="link">Movie Details</a>
+        <a href="Catalogue.html" class="link">Catalogue</a>
+        <a href="Home.html" class="link">Home</a>
+    </div>
+    <div id="type">
+        <b>Selected Genre:</b>
+        <input type="radio" name="genre" value="All Genres"> All Genres
+        <input type="radio" name="genre" value="Action"> Action
+        <input type="radio" name="genre" value="Comedy"> Comedy
+        <input type="radio" name="genre" value="Drama"> Drama
+        <input type="radio" name="genre" value="Horror"> Horror
+        <input type="radio" name="genre" value="Sci-Fi"> Sci-Fi
+        <input type="radio" name="genre" value="Romance"> Romance
+        <button type="button" id="applyFilters" data-filter="genre">Apply Filters</button>
+        <button type="button" id="resetAll" data-reset="genre">Reset All</button>
+        <hr>
+    </div>
+    <div id="middle">
+        <div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/3_Idiots"><img src="3 IDIOTS.jpg" width="310"
+                        height="420">
+                </a>
+                <div>
+                    <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                    <div>
+                        <h4>Plot:</h4>
+                        <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad arrives
+                            as an academically gifted student, challenging professors with his unconventional beliefs.
+                            He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the suicide
+                            of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                            Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's health,
+                            Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Budget:₹55 crore</li>
+                            <li>Box office:₹400.61 crore</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Audience Review:</h4>
+                        <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                            serious, emotional, and thought-provoking themes like mental health and student suicide</p>
+                    </div>
+                </div>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Ajab_Prem_Ki_Ghazab_Kahani"><img
+                        src="AJAB PREM KI GHAZAB KAHANI.jpg" width="310" height="420"></a>
+                <div>
+                    <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                    <div>
+                        <h4>Plot:</h4>
+                        <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad arrives
+                            as an academically gifted student, challenging professors with his unconventional beliefs.
+                            He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the suicide
+                            of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                            Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's health,
+                            Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Budget:₹55 crore</li>
+                            <li>Box office:₹400.61 crore</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Audience Review:</h4>
+                        <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                            serious, emotional, and thought-provoking themes like mental health and student suicide</p>
+                    </div>
+                </div>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Ra.One"><img src="Ra.One.jpg" width="310"
+                        height="420"></a>
+                <div>
+                    <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                    <div>
+                        <h4>Plot:</h4>
+                        <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad arrives
+                            as an academically gifted student, challenging professors with his unconventional beliefs.
+                            He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the suicide
+                            of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                            Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's health,
+                            Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Budget:₹55 crore</li>
+                            <li>Box office:₹400.61 crore</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Audience Review:</h4>
+                        <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                            serious, emotional, and thought-provoking themes like mental health and student suicide</p>
+                    </div>
+                </div>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Chennai_Express"><img src="CHENNAI EXPRESS.jpg"
+                        width="310" height="420"></a>
+                <div>
+                    <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                    <div>
+                        <h4>Plot:</h4>
+                        <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad arrives
+                            as an academically gifted student, challenging professors with his unconventional beliefs.
+                            He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the suicide
+                            of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                            Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's health,
+                            Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Budget:₹55 crore</li>
+                            <li>Box office:₹400.61 crore</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Audience Review:</h4>
+                        <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                            serious, emotional, and thought-provoking themes like mental health and student suicide</p>
+                    </div>
+                </div>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Krish_3"><img src="KRISH 3.jpg" width="310"
+                        height="420"></a>
+                <div>
+                    <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                    <div>
+                        <h4>Plot:</h4>
+                        <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad arrives
+                            as an academically gifted student, challenging professors with his unconventional beliefs.
+                            He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the suicide
+                            of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                            Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's health,
+                            Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Budget:₹55 crore</li>
+                            <li>Box office:₹400.61 crore</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Audience Review:</h4>
+                        <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                            serious, emotional, and thought-provoking themes like mental health and student suicide</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Aashiqui_2"><img src="AASHIQUI 2.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Yeh_Jawaani_Hai_Deewani"><img
+                            src="YEH JAWAANI HAI DEEWANI.jpg" width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/2_States_(2014_film)"><img src="2 STATES.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Ek_Villain"><img src="Ek Villain.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Happy_New_Year_(2014_film)"><img
+                            src="Happy New Year.jpg" width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/PK_(2014_film)"><img src="PK.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Humpty_Sharma_Ki_Dulhaniya"><img
+                            src="Humpty Sharma Ki Dulhaniya.jpg" width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Main_Tera_Hero"><img src="Main Tera Hero.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Bajrangi_Bhaijaan"><img src="BAJRANGI BHAIJAN.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Badlapur_(film)"><img src="BADLAPUR.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Drishyam_(2015_film)"><img src="DRISHYAM.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Gabbar_Is_Back"><img src="GABBAR IS BACK.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Prem_Ratan_Dhan_Payo"><img
+                            src="PREM RATAN DHAN PAYO.jpg" width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Bajirao_Mastani"><img src="BAJIRAO MASTANI.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Dilwale_(2015_film)"><img src="DILWALE.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Ae_Dil_Hai_Mushkil"><img src="AE DIL HAI MUSKIL.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Airlift_(2016_film)"><img src="AIRLIFT.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Kapoor_%26_Sons"><img src="KAPOOR & SONS.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Dangal_(2016_film)"><img src="DANGAL.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Sultan_(2016_film)"><img src="SULTAN.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Secret_Superstar"><img src="SECRET SUPERSTAR.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Raees_(2017_film)"><img src="RAEES.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Tiger_Zinda_Hai"><img src="TIGER ZINDA HAI.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Baaghi_2"><img src="BAAGHI 2.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Uri:_The_Surgical_Strike"><img src="URI.jpg"
+                            width="310" height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Kabir_Singh"><img src="KABIR SINGH.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Chhichhore"><img src="CHHICHHORE.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Shiddat"><img src="SHIDDAT.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Saiyaara_(film)"><img src="SAIYAARA.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div id="a"><a href="https://en.wikipedia.org/wiki/Border_2"><img src="BORDER 2.jpg" width="310"
+                            height="420"></a>
+                    <div>
+                        <b>Starring : </b> Aamir Khan,R. Madhavan,Sharman Joshi,Kareena Kapoor,Boman Irani,Mona Singh
+                        <div>
+                            <h4>Plot:</h4>
+                            <P>At the Imperial College of Engineering (ICE), Ranchoddas "Rancho" Shamaldas Chanchad
+                                arrives
+                                as an academically gifted student, challenging professors with his unconventional
+                                beliefs.
+                                He befriends fellow engineering students Farhan Qureshi and Raju Rastogi. After the
+                                suicide
+                                of Joy Lobo, a student whose project was rejected by the director, Dr. Viru "Virus"
+                                Sahastrabuddhe, because he had repeatedly delayed his project to focus on his dad's
+                                health,
+                                Rancho holds Virus responsible, leading to a prolonged rivalry between them.</P>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Budget:₹55 crore</li>
+                                <li>Box office:₹400.61 crore</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Audience Review:</h4>
+                            <p>Fans note that director Rajkumar Hirani successfully mixes laugh-out-loud comedy with
+                                serious, emotional, and thought-provoking themes like mental health and student suicide
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <hr>
+            <marquee>"Thank you for visiting Movie Explorer! We hope you enjoy exploring our collection of movies."
+            </marquee>
+            <p>© 2026 Movie Explorer. All rights reserved.</p>
+        </div>
+</body>
+
+</html>
