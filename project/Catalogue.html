@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            color: blue;
+            background-color: greenyellow;
+            font-size: 30px;
+            padding: 10px;
+        }
+
+        .link {
+            float: right;
+            margin-left: 20px;
+        }
+
+        #type {
+            color: white;
+            background-color: black;
+            font-size: 20px;
+        }
+
+        #middle {
+            font-size: 20px;
+            width: 100%;
+            background-color: black;
+        }
+
+        #a {
+            float: left;
+            border: 6px solid white;
+            color: white;
+            background-color: black;
+            }
+
+        #footer {
+            color: white;
+            background-color: black;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"><b>Movie Explorer</b>
+         <a href="About.html" class="link">About & Contact</a>
+        <a href="MovieDetails.html" class="link">Movie Details</a>
+        <a href="Catalogue.html" class="link">Catalogue</a>
+        <a href="Home.html" class="link">Home</a>
+    </div>
+    <div id="type">
+        <b>Selected Genre:</b>
+        <input type="radio" name="genre" value="All Genres"> All Genres
+        <input type="radio" name="genre" value="Action"> Action
+        <input type="radio" name="genre" value="Comedy"> Comedy
+        <input type="radio" name="genre" value="Drama"> Drama
+        <input type="radio" name="genre" value="Horror"> Horror
+        <input type="radio" name="genre" value="Sci-Fi"> Sci-Fi
+        <input type="radio" name="genre" value="Romance"> Romance
+        <button type="button" id="applyFilters" data-filter="genre">Apply Filters</button>
+        <button type="button" id="resetAll" data-reset="genre">Reset All</button>
+        <hr>
+    </div>
+    <div id="middle">
+        <div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/3_Idiots"><img src="3 IDIOTS.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Drama</li>
+                    <li><b>Director:</b> Rajkumar Hirani</li>
+                    <li><b>Duration:</b> 170 minutes</li>
+                    <li><b>Rating:</b> 8.4/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Ajab_Prem_Ki_Ghazab_Kahani"><img
+                        src="AJAB PREM KI GHAZAB KAHANI.jpg" width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Romance</li>
+                    <li><b>Director:</b> Rajkumar Santoshi</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 6.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Ra.One"><img src="Ra.One.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Sci-Fi</li>
+                    <li><b>Director:</b> Anubhav Sinha</li>
+                    <li><b>Duration:</b> 156 minutes</li>
+                    <li><b>Rating:</b> 4.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Chennai_Express"><img src="CHENNAI EXPRESS.jpg"
+                        width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b>Comedy & Romance</li>
+                    <li><b>Director:</b> Rohit Shetty</li>
+                    <li><b>Duration:</b> 146 minutes</li>
+                    <li><b>Rating:</b> 6.9/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Krish_3"><img src="KRISH 3.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Adventure</li>
+                    <li><b>Director:</b> Rakesh Roshan</li>
+                    <li><b>Duration:</b> 145 minutes</li>
+                    <li><b>Rating:</b> 5.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Aashiqui_2"><img src="AASHIQUI 2.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Romance</li>
+                    <li><b>Director:</b> Mohit Suri</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 7.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Yeh_Jawaani_Hai_Deewani"><img
+                        src="YEH JAWAANI HAI DEEWANI.jpg" width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Romance</li>
+                    <li><b>Director:</b>Ayan Mukerji</li>
+                    <li><b>Duration:</b> 158 minutes</li>
+                    <li><b>Rating:</b> 6.8/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/2_States_(2014_film)"><img src="2 STATES.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Romance</li>
+                    <li><b>Director:</b> Abhishek Varman</li>
+                    <li><b>Duration:</b> 158 minutes</li>
+                    <li><b>Rating:</b> 7.1/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Ek_Villain"><img src="Ek Villain.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Thriller</li>
+                    <li><b>Director:</b> Mohit Suri</li>
+                    <li><b>Duration:</b> 130 minutes</li>
+                    <li><b>Rating:</b> 6.3/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Happy_New_Year_(2014_film)"><img src="Happy New Year.jpg"
+                        width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Action</li>
+                    <li><b>Director:</b> Farah Khan</li>
+                    <li><b>Duration:</b> 180 minutes</li>
+                    <li><b>Rating:</b> 5.0/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/PK_(2014_film)"><img src="PK.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Drama</li>
+                    <li><b>Director:</b> Rajkumar Hirani</li>
+                    <li><b>Duration:</b> 153 minutes</li>
+                    <li><b>Rating:</b> 8.1/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Humpty_Sharma_Ki_Dulhaniya"><img
+                        src="Humpty Sharma Ki Dulhaniya.jpg" width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Romance</li>
+                    <li><b>Director:</b> Shashank Khaitan</li>
+                    <li><b>Duration:</b> 140 minutes</li>
+                    <li><b>Rating:</b> 6.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Main_Tera_Hero"><img src="Main Tera Hero.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Action</li>
+                    <li><b>Director:</b> David Dhawan</li>
+                    <li><b>Duration:</b> 140 minutes</li>
+                    <li><b>Rating:</b> 5.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Bajrangi_Bhaijaan"><img src="BAJRANGI BHAIJAN.jpg"
+                        width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Drama, Comedy</li>
+                    <li><b>Director:</b> Kabir Khan</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 8.0/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Badlapur_(film)"><img src="BADLAPUR.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Thriller</li>
+                    <li><b>Director:</b> Sriram Raghavan</li>
+                    <li><b>Duration:</b> 130 minutes</li>
+                    <li><b>Rating:</b> 7.6/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Drishyam_(2015_film)"><img src="DRISHYAM.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Crime, Drama</li>
+                    <li><b>Director:</b> Nishikant Kamat</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 8.2/10</li>
+                    <li><b>Language:</b> Malayalam</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Gabbar_Is_Back"><img src="GABBAR IS BACK.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Comedy</li>
+                    <li><b>Director:</b> Krish Jagarlamudi</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 6.8/10</li>
+                    <li><b>Language:</b> Tamil</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Prem_Ratan_Dhan_Payo"><img src="PREM RATAN DHAN PAYO.jpg"
+                        width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Romance, Drama</li>
+                    <li><b>Director:</b> Sooraj R. Barjatya</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 7.2/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Bajirao_Mastani"><img src="BAJIRAO MASTANI.jpg"
+                        width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Historical, Romance</li>
+                    <li><b>Director:</b> Sanjay Leela Bhansali</li>
+                    <li><b>Duration:</b> 158 minutes</li>
+                    <li><b>Rating:</b> 7.2/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Dilwale_(2015_film)"><img src="DILWALE.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Romance</li>
+                    <li><b>Director:</b> Rohit Shetty</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 5.2/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Ae_Dil_Hai_Mushkil"><img src="AE DIL HAI MUSKIL.jpg"
+                        width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Romance, Drama</li>
+                    <li><b>Director:</b> Karan Johar</li>
+                    <li><b>Duration:</b> 157 minutes</li>
+                    <li><b>Rating:</b> 5.8/10</li>
+                    <li><b>Language:</b> Hindi</li>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Airlift_(2016_film)"><img src="AIRLIFT.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Drama, Thriller</li>
+                    <li><b>Director:</b> Raja Krishna Menon</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.2/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Kapoor_%26_Sons"><img src="KAPOOR & SONS.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Drama</li>
+                    <li><b>Director:</b> Shakun Batra</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 7.2/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Dangal_(2016_film)"><img src="DANGAL.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Drama</li>
+                    <li><b>Director:</b> Nitesh Tiwari</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 8.4/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Sultan_(2016_film)"><img src="SULTAN.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Drama</li>
+                    <li><b>Director:</b> Ali Abbas Zafar</li>
+                    <li><b>Duration:</b> 160 minutes</li>
+                    <li><b>Rating:</b> 6.8/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Secret_Superstar"><img src="SECRET SUPERSTAR.jpg"
+                        width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Drama, Music</li>
+                    <li><b>Director:</b> Advait Chandan</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Raees_(2017_film)"><img src="RAEES.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Drama</li>
+                    <li><b>Director:</b> Rahul Dholakia</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.2/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Tiger_Zinda_Hai"><img src="TIGER ZINDA HAI.jpg"
+                        width="310" height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Adventure</li>
+                    <li><b>Director:</b> Ali Abbas Zafar</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 6.8/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Baaghi_2"><img src="BAAGHI 2.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Crime</li>
+                    <li><b>Director:</b> Ahmed Khan</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 6.8/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Uri:_The_Surgical_Strike"><img src="URI.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Drama</li>
+                    <li><b>Director:</b> Aditya Dhar</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.8/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Kabir_Singh"><img src="KABIR SINGH.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Drama, Romance</li>
+                    <li><b>Director:</b> Sandeep Reddy Vanga</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.1/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Chhichhore"><img src="CHHICHHORE.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Comedy, Drama</li>
+                    <li><b>Director:</b> Nitesh Tiwari</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.9/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Shiddat"><img src="SHIDDAT.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Drama, Romance</li>
+                    <li><b>Director:</b> Kunal Deshmukh</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Saiyaara_(film)"><img src="SAIYAARA.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Drama, Romance</li>
+                    <li><b>Director:</b> Mohit Suri</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.5/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+            <div id="a"><a href="https://en.wikipedia.org/wiki/Border_2"><img src="BORDER 2.jpg" width="310"
+                        height="420"></a>
+                <ul>
+                    <li><b>Genre:</b> Action, Drama</li>
+                    <li><b>Director:</b> Anurag Singh</li>
+                    <li><b>Duration:</b> 150 minutes</li>
+                    <li><b>Rating:</b> 7.8/10</li>
+                    <li><b>Language:</b> Hindi</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <hr>
+        <marquee>"Thank you for visiting Movie Explorer! We hope you enjoy exploring our collection of movies."
+        </marquee>
+        <p>© 2026 Movie Explorer. All rights reserved.</p>
+    </div>
+</body>
+
+</html>
