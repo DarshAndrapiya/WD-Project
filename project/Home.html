@@ -8,9 +8,11 @@
     <style>
         #header {
             color: blue;
-            background-color: greenyellow;
-            font-size: 30px;
-            padding: 10px;
+           font-size: 30px;
+            padding: 9px;
+            position: fixed;
+            width: 98%;
+            margin-top: -55px;
         }
 
         .link {
@@ -21,11 +23,12 @@
             font-size: 20px;
             width: 100%;
             background-color: black;
+            margin-top: 50px;
         }
 
         #a {
             float: left;
-            border: 5px solid white;
+            border: 6px solid white;
             color: white;
             background-color: black;
             }
@@ -36,6 +39,54 @@
             font-size: 20px;
             text-align: center;
         }
+        #header {
+            animation: darsh 5s infinite;
+        }
+        @keyframes darsh {
+  0%   { background-color: #3498db; } 
+  25%  { background-color: #2ecc71; } 
+  50%  { background-color: #f1c40f; }
+  75%  { background-color: #9b59b6; } 
+  100% { background-color: #3498db; }
+        }
+        @media (max-width:576px) 
+    {
+            #header {
+            width: adjust-content;
+            }
+            #middle {
+            width: adjust-content;
+            }
+            #footer {
+            width: adjust-content;
+            }
+    }
+
+        @media (max-width:992px) and (min-width:577px) 
+         {
+            #header {
+            width: adjust-content;
+            }
+            #middle {
+            width: adjust-content;
+            }
+            #footer {
+            width: adjust-content;
+            }
+        }
+            @media (min-width:993px) 
+        
+        {
+            #header {
+            width: adjust-content;
+            }
+            #middle {
+            width: adjust-content;
+            }
+            #footer {
+            width: adjust-content;
+            }
+       }
     </style>
 </head>
 

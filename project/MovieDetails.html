@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #header {
+         #header {
             color: blue;
-            background-color: greenyellow;
             font-size: 30px;
-            padding: 10px;
+            padding: 9px;
+            position: fixed;
+            width: 98%;
+            margin-top: -55px;
         }
 
         .link {
@@ -18,16 +20,14 @@
             margin-left: 20px;
         }
 
-        #type {
-            color: white;
-            background-color: black;
-            font-size: 20px;
-        }
+        
 
         #middle {
+            color: white;
             font-size: 20px;
             width: 100%;
             background-color: black;
+            margin-top: 50px;
         }
 
         #a {
@@ -43,6 +43,54 @@
             font-size: 20px;
             text-align: center;
         }
+        #header {
+            animation: darsh 5s infinite;
+        }
+        @keyframes darsh {
+  0%   { background-color: #3498db; } 
+  25%  { background-color: #2ecc71; }
+  50%  { background-color: #f1c40f; } 
+  75%  { background-color: #9b59b6; } 
+  100% { background-color: #3498db; }
+        }
+      @media (max-width:576px) 
+    {
+            #header {
+            width: adjust-content;
+            }
+            #middle {
+            width: adjust-content;
+            }
+            #footer {
+            width: adjust-content;
+            }
+    }
+
+        @media (max-width:992px) and (min-width:577px) 
+         {
+            #header {
+            width: adjust-content;
+            }
+            #middle {
+            width: adjust-content;
+            }
+            #footer {
+            width: adjust-content;
+            }
+        }
+            @media (min-width:993px) 
+        
+        {
+            #header {
+            width: adjust-content;
+            }
+            #middle {
+            width: adjust-content;
+            }
+            #footer {
+            width: adjust-content;
+            }
+       }
     </style>
 </head>
 
@@ -53,7 +101,7 @@
         <a href="Catalogue.html" class="link">Catalogue</a>
         <a href="Home.html" class="link">Home</a>
     </div>
-    <div id="type">
+   <div id="middle">
         <b>Selected Genre:</b>
         <input type="radio" name="genre" value="All Genres"> All Genres
         <input type="radio" name="genre" value="Action"> Action
@@ -64,9 +112,9 @@
         <input type="radio" name="genre" value="Romance"> Romance
         <button type="button" id="applyFilters" data-filter="genre">Apply Filters</button>
         <button type="button" id="resetAll" data-reset="genre">Reset All</button>
-        <hr>
-    </div>
-    <div id="middle">
+
+    
+    
         <div>
             <div id="a"><a href="https://en.wikipedia.org/wiki/3_Idiots"><img src="3 IDIOTS.jpg" width="310"
                         height="420">

@@ -5,10 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #header {
+          animation: darsh 5s infinite;
+        }
+        #middle {
+            background-color: lightblue;
+            height: 80vh;
+        }
          .link {
             font-size: 30px;
             float: right;
             margin-right: 35px;
+        }
+        a:link{
+            color: blue;
+        }
+        a:visited{
+            color: purple;
+        }
+        a:hover{
+            color:red;
+        }
+        a:active{
+            color:orangered;
+        }
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+        button{
+            border-radius: 10px;
+        }
+        h2::first-letter{
+            color: blue;
+            font-size: 1.8rem;
+        }
+        p:active{
+            color: blue;
+            font-size: 1.3rem;
+        }
+        textarea::placeholder{
+            color: blue;
+            background-color: aqua;
+        }
+        input:active{
+            color: aqua;
+        }
+         @keyframes darsh {
+            0% {
+                background-color: #3498db;
+            }
+
+            25% {
+                background-color: #2ecc71;
+            }
+
+            50% {
+                background-color: #f1c40f;
+            }
+
+            75% {
+                background-color: #9b59b6;
+            }
+
+            100% {
+                background-color: #3498db;
+            }
         }
     </style>
 </head>
@@ -19,9 +81,11 @@
         <a href="MovieDetails.html" class="link">Movie Details</a>
         <a href="Catalogue.html" class="link">Catalogue</a>
         <a href="Home.html" class="link">Home</a>
-    </div>
+    
     <h2>User Feedback & Inquiry Form</h2>
-    <label><b>Please fill out the form below to submit your feedback or inquiries regarding the portal:</b></label><hr><br>
+    <label><b><P>Please fill out the form below to submit your feedback or inquiries regarding the portal:</P></b></label><hr>
+    </div>
+    <div id="middle">
     <b>Full Name:</b><br>
     <input type="text" name="fullName" required minlength="5"><br><br>
     <b>Email Address:</b><br>
@@ -45,8 +109,9 @@
     <b>Your Detailed Feedback/Message:</b><br>
     <textarea name="message" rows="4" cols="50" placeholder="Type your detailed message here..." required></textarea><br><br>
 
-    <button type="submit">Submit Feedback Inquiry</button>
-    <button type="reset">Clear Form Inputs</button><br>
+    <button type="submit">Submit</button>
+    <button type="reset">Clear</button><br>
         <p>© 2026 Movie Explorer. All rights reserved.</p>  
+        </div>
 </body>
 </html>
